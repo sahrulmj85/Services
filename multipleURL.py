@@ -51,4 +51,4 @@ for url in urls:
         print(f"❌ Unexpected error: {e}")
 
     # Sleep 1 second between downloads
-    time.sleep(5)
+    time.sleep(1)
