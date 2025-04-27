@@ -15,6 +15,8 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install dependencies
-        run: pip install --upgrade pip
+        run: |
+          pip install --upgrade pip
+          pip install requests
       - name: Run script
         run: python multipleURL.py
